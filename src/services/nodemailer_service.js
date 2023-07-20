@@ -8,7 +8,7 @@ exports.transporter = nodemailer.createTransport({
     port: 465,
     secure: true,
     auth: {
-      user: 'granrah1@gmail.com',
+      user: 'tapiamecanico2023@gmail.com',
       pass: process.env.NODEMAILER_API_KEY
     }
   });
