@@ -5,7 +5,7 @@ const {transporter} = require('../services/nodemailer_service');
 
 
   exports.setEmail = async (req, res, next) => {
-      
+      console.log('entro');
     const { to, from, subject, text, html } = req.body;
     const msg = {
         to, 
